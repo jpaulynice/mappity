@@ -26,9 +26,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     public void onMapReady(GoogleMap googleMap) {
         map = googleMap;
 
-        LatLng boston = new LatLng(42.364506, -71.038887);
+        LatLng boston = new LatLng(42.3587914, -71.0621918);
         map.addMarker(new MarkerOptions().position(boston).title("Marker in " +
                 "Boston, MA"));
-        map.moveCamera(CameraUpdateFactory.newLatLng(boston));
+        map.moveCamera(CameraUpdateFactory.newLatLngZoom(boston, 15.65F));
     }
 }
