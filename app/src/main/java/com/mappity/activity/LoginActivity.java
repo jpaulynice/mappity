@@ -1,4 +1,4 @@
-package com.mappity;
+package com.mappity.activity;
 
 import static android.Manifest.permission.READ_CONTACTS;
 
@@ -29,6 +29,8 @@ import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import com.mappity.R;
 
 import java.util.ArrayList;
 import java.util.List;

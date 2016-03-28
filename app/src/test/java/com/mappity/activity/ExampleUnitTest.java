@@ -1,4 +1,4 @@
-package com.mappity;
+package com.mappity.activity;
 
 import static org.junit.Assert.assertEquals;
 

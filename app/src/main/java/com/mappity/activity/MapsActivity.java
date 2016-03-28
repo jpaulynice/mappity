@@ -1,4 +1,4 @@
-package com.mappity;
+package com.mappity.activity;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -9,6 +9,8 @@ import com.google.android.gms.maps.model.MarkerOptions;
 
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
+
+import com.mappity.R;
 
 public class MapsActivity extends FragmentActivity implements
         OnMapReadyCallback {
