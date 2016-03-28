@@ -21,13 +21,15 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.google.android.gms:play-services:8.3.0'
-    compile 'com.android.support:appcompat-v7:23.1.1'
-    compile 'org.roboguice:roboguice:3.0'
-    compile 'com.squareup.okhttp:okhttp:2.4.0'
     provided 'org.roboguice:roboblender:3.0'
 
-    testCompile 'com.squareup.okhttp:mockwebserver:2.4.0'
+    compile 'com.google.android.gms:play-services:8.4.0'
+    compile 'com.android.support:appcompat-v7:23.2.1'
+    compile 'org.roboguice:roboguice:3.0'
+    compile 'com.squareup.okhttp3:okhttp:3.2.0'
+    compile 'com.android.support:design:23.2.1'
+
+    testCompile 'com.squareup.okhttp3:mockwebserver:3.2.0'
     testCompile 'junit:junit:4.12'
     testCompile 'org.easytesting:fest:1.0.16'
     testCompile 'com.squareup:fest-android:1.0.8'
